@@ -8,7 +8,7 @@ body {
     background-image: url(./images/background\ 2.jpg);
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-position-y: 20%;
     background-position: right 45%;
     background-size: cover;
@@ -16,18 +16,18 @@ body {
 #connexion{
     width: 130px;
     color: rgb(209,72,54);
-    height: 100px;
+    height: 80px;
     border-radius: 15px;
     background-color: rgb(73,197,182);
     margin-left:85%;
-    margin-top: 40px;
+    margin-top: 9px;
     border: none;
     opacity: 80%;
 }
 h1{
     text-align: center;
     color : rgb(209,72,54);
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 20px;
     text-shadow: black 10%;
     
