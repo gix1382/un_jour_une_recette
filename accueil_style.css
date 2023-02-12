@@ -1,7 +1,8 @@
 body {
     margin: 0;
-   padding: 0; 
-   box-sizing: border-box;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Itim';
 }
 
 #header{
@@ -13,16 +14,22 @@ body {
     background-position: right 45%;
     background-size: cover;
 }
-#connexion{
+.header {
     width: 130px;
     color: rgb(209,72,54);
     height: 80px;
     border-radius: 15px;
     background-color: rgb(73,197,182);
-    margin-left:85%;
     margin-top: 9px;
     border: none;
     opacity: 80%;
+}
+.header-left {
+    margin-right: 45%;
+}
+.header-right {
+    margin-left: 45%;
+    margin-right: 2%;
 }
 h1{
     text-align: center;
@@ -32,3 +39,27 @@ h1{
     text-shadow: black 10%;
     
 }
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    
+  }
+  .search {
+    margin-left: 30%;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(73,197,182);
+    border-radius: 20px;
+    opacity: 80%;
+  }
+
+  .loupe { 
+    height: 40px;
+    margin-left: 31%;
+    
+
+  }
