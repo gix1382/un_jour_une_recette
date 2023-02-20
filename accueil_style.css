@@ -59,7 +59,113 @@ h1{
 
   .loupe { 
     height: 40px;
-    margin-left: 31%;
+    margin-left: 31% ;
+    opacity: 1;
+    color: black;
     
-
   }
+  .recherche {
+    position: relative;
+  }
+  .recherche img,search{
+    position: absolute;
+  }
+  .recherche img{
+    opacity: 1;
+    color: black;
+  }
+  .h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+  }
+
+ #conteneur {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+ }
+ .saumon{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+ }
+ .salade{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+ }
+ .pizza{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+ }
+ .thèmes{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 150px;
+
+ }
+#pastilles{
+  display: flex;
+  justify-content: space-around;
+}
+.d1{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(209,72,54);
+}
+.rapide{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(209,72,54) ;
+  border-radius: 10px;
+}
+.d2{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(209,72,54);
+}
+.entrée{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(209,72,54) ;
+  border-radius: 10px;
+}
+.d3{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(209,72,54);
+}
+.Plats{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(209,72,54) ;
+  border-radius: 10px;
+}
+.d4{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(209,72,54);
+}
+.Desserts{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(209,72,54) ;
+  border-radius: 10px;
+}
+.d5{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(209,72,54);
+}
+.Vegan{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(209,72,54) ;
+  border-radius: 10px;
+}
