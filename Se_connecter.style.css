@@ -46,95 +46,39 @@ h1{
     background-color: black;
     margin: 6px 0;
 }
-.search {
-    margin-left: 30%;
-    text-align: center;
-    width: 500px;
-    height: 40px;
+.diva{
+    width: 400px;
+    height: 400px;
     background-color: rgb(73,197,182);
-    border-radius: 20px;
-    opacity: 80%;
-  }
-
-  .loupe { 
-    height: 40px;
-    margin-left: 31% ;
-    opacity: 1;
-    color: black;
-    
-  }
-  .recherche {
-    position: relative;
-  }
-  .recherche img,search{
-    position: absolute;
-  }
-  .recherche img{
-    opacity: 1;
-    color: black;
-  }
-  #conteneur {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-   }
-   .pesto{
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-   }
-  
-   
-   .beignets{
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 450px;
+    border-radius: 10px;
+    margin-top: 150px;
 }
-    .burger{
-        height: 350px;
-        width: 350px;
-        border-radius: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
-       }
-       .trio{
-        height: 350px;
-        width: 350px;
-        border-radius: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
-       }
-
-       .titre1{
-        
-        text-align: center;
-        margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-       .titre2{
-      
-        text-align: center;
-        margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-       .titre3{
-       
-        text-align: center;
-        margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-       .titre4{
-        
-        text-align: center;
-        margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-   
-   #footer{
+.n1{
+    margin-left: 180px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+  }
+  .m1{
+    margin-left: 180px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+  }
+  
+  
+  input {
+    width: 200px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  #footer{
     background-color:rgb(209,72,54);
     height: 200px;
     margin-top: 100px;
@@ -188,3 +132,6 @@ h1{
     margin-right: 50px;
     margin-top: 20px;
 }
+
+    
+    

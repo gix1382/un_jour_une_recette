@@ -13,6 +13,8 @@ body {
     background-position-y: 20%;
     background-position: right 45%;
     background-size: cover;
+    
+    
 }
 .header {
     width: 130px;
@@ -78,30 +80,30 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
    }
-   .pesto{
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+   .flamenkuche{
+        height: 350px;
+        width: 350px;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
    }
   
    
-   .beignets{
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+   .baked{
+        height: 350px;
+        width: 350px;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
 }
-    .burger{
+    .tortilla{
         height: 350px;
         width: 350px;
         border-radius: 20px;
         margin-left: 50px;
         margin-right: 50px;
        }
-       .trio{
+    .croque{
         height: 350px;
         width: 350px;
         border-radius: 20px;
@@ -116,7 +118,7 @@ h1{
         font-family: Arial, Helvetica, sans-serif;
        }
        .titre2{
-      
+        
         text-align: center;
         margin-top: 100px;
         font-family: Arial, Helvetica, sans-serif;
@@ -128,11 +130,14 @@ h1{
         font-family: Arial, Helvetica, sans-serif;
        }
        .titre4{
-        
+
         text-align: center;
         margin-top: 100px;
         font-family: Arial, Helvetica, sans-serif;
        }
+     
+
+       
    
    #footer{
     background-color:rgb(209,72,54);
