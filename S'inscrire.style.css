@@ -71,6 +71,7 @@ label {
     border-radius: 5px;
     text-align: center;
     margin-left: 500px;
+    background-color: rgb(73,197,182);
   }
   
   button {
@@ -95,6 +96,9 @@ label {
   }
   .pw1{
     margin-left: 580px;
+  }
+  #password{
+    margin-left: 480px;
   }
   .c1{
     margin-left: 500px;

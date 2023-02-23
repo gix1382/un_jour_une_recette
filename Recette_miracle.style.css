@@ -38,7 +38,7 @@ h1{
     color : rgb(209,72,54);
     font-size: 60px;
     margin-top: 20px;
-    text-shadow: black 10%;
+    text-shadow: 1px 1px black
     
 }
 .burger-icon span {
@@ -115,25 +115,25 @@ h1{
         
         text-align: center;
         margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Itim';
        }
        .titre2{
         
         text-align: center;
         margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Itim';
        }
        .titre3{
        
         text-align: center;
         margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Itim';
        }
        .titre4{
 
         text-align: center;
         margin-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Itim';
        }
      
 
