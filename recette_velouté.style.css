@@ -30,13 +30,15 @@ body {
 .header-right {
     margin-left: 45%;
     margin-right: 2%;
+    
+
 }
 h1{
     text-align: center;
     color : rgb(209,72,54);
     font-size: 60px;
     margin-top: 20px;
-    text-shadow: black 10%;
+    text-shadow: 1px 1px black;
     
 }
 .burger-icon span {
@@ -46,39 +48,91 @@ h1{
     background-color: black;
     margin: 6px 0;
 }
-.diva{
-    width: 400px;
-    height: 400px;
-    background-color: rgb(73,197,182);
-    display: flex;
-    margin-left: 450px;
-    border-radius: 10px;
-    margin-top: 150px;
-}
-.n1{
-    margin-left: 180px;
-    margin-bottom: 200px;
-    margin-top: 30px;
-  }
-  .m1{
-    margin-left: 180px;
-    margin-bottom: 200px;
-    margin-top: 30px;
-  }
- 
-  
-  input {
-    width: 200px;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid rgb(73,197,182);
-    border-radius: 5px;
+.search {
+    margin-left: 30%;
     text-align: center;
-    margin-left: 100px;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(73,197,182);
+    border-radius: 20px;
+    opacity: 80%;
   }
-  #footer{
+
+  .loupe { 
+    height: 40px;
+    margin-left: 31% ;
+    opacity: 1;
+    color: black;
+    
+  }
+  .recherche {
+    position: relative;
+  }
+  .recherche img,search{
+    position: absolute;
+  }
+  .recherche img{
+    opacity: 1;
+    color: black;
+  }
+  #conteneur {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+   .velouté{
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+  
+   
+  
+   
+ 
+
+       .titre1{
+        margin-left:40px ;
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Itim';
+       }
+       .présentation{
+        margin-left: 50px;
+        margin-top: 50px;
+        text-decoration: underline rgb(209,72,54) ;
+        font-size: x-large;
+        font-weight: bold;
+       }
+       .ingrédients{
+        margin-left: 300px;
+        text-decoration: underline rgb(73,197,182) ;
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 100px;
+
+       }
+       .préparation{
+        margin-left: 50px;
+        margin-top: 50px;
+        text-decoration: underline rgb(209,72,54) ;
+        font-size: x-large;
+        font-weight: bold;
+       }
+       .fin{
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(73,197,182);
+
+
+       }
+       
+   
+   
+   #footer{
     background-color:rgb(209,72,54);
     height: 200px;
     margin-top: 100px;
@@ -132,6 +186,3 @@ h1{
     margin-right: 50px;
     margin-top: 20px;
 }
-
-    
-    
