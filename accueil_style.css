@@ -307,8 +307,40 @@ h1{
         height: 10px;
         border-radius: 10px;
         text-align: center;
+        
   
 }
+.a1{
+        text-decoration: none;
+        color: black;
+       
+}
+.a2{
+        text-decoration: none;
+        color: black;
+       
+}
+.a3{
+        text-decoration: none;
+        color: black;
+       
+}
+.a4{
+        text-decoration: none;
+        color: black;
+       
+}
+/* .a5{
+        text-decoration: none;
+        color: black;
+       
+} */
+.a6{
+        text-decoration: none;
+        color: black;
+       
+}
+
 #footer{
         background-color:rgb(209,72,54);
         height: 200px;
@@ -482,7 +514,7 @@ h1{
                       padding-bottom: 20px;
               }
               #footer{
-              display: none;     
+              padding-right: 1000px;    
         
         }
         .saumon{
