@@ -17,12 +17,13 @@ body {
 .header {
     width: 130px;
     color: rgb(209,72,54);
-    height: 80px;
+    height: 50px;
     border-radius: 15px;
-    background-color: rgb(75, 196, 181);
-    margin-top: 9px;
+    background-color: rgb(73,197,182);
+    margin-top: 15px;
     border: none;
     opacity: 80%;
+    margin-left: 15px;
 }
 .header-left {
     margin-right: 45%;
@@ -36,13 +37,13 @@ h1{
     color : rgb(209,72,54);
     font-size: 60px;
     margin-top: 20px;
-    text-shadow: black 10%;
+    text-shadow: 1px 1px 2px black;
     
 }
 .burger-icon span {
     display: block;
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: black;
     margin: 6px 0;
     
@@ -66,6 +67,7 @@ h1{
   }
   .recherche {
     position: relative;
+    margin-left: 90px;
   }
   .recherche img,search{
     position: absolute;
@@ -83,7 +85,7 @@ h1{
 
  #conteneur {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
  }
  .saumon{
@@ -208,7 +210,7 @@ h1{
         border-radius: 20px;
         opacity: 80%;
         text-align: center;
-        margin-left: 350px;
+        margin-left: 500px;
         margin-top: 100px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
@@ -361,40 +363,37 @@ h1{
 .f3{
         margin-top: 80px;
 }
-#links{
-        display: flex;
-        width: 30px;
-        height: 30px;
-        justify-content: space-around;
-}
 .facebook{
         width: 30px;
         height: 30px;
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
-        margin-top: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
+        justify-content: center;
+        margin-top: 90px;
         
-}
-.instagram{
+        
+        
+    }
+    .instagram{
         width: 30px;
         height: 30px;
         display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
-}
-.pinterest{
+        justify-content: space-between;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 90px;
+       
+    }
+    .pinterest{
         width: 30px;
         height: 30px;
         display: flex;
-        justify-content: space-around;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 20px;
-}
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        margin-top: 90px;
+    }
 
 
 /* Responsive */
