@@ -1,212 +1,248 @@
 body {
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
-    font-family: 'Itim';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Itim';
 }
 
-#header{
-    background-image: url(./images/background\ 2.jpg);
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-position-y: 20%;
-    background-position: right 45%;
-    background-size: cover;
+#header {
+        background-image: url(./images/background\ 2.jpg);
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-position-y: 20%;
+        background-position: right 45%;
+        background-size: cover;
+        
 }
+
 .header {
-    width: 130px;
-    color: rgb(209,72,54);
-    height: 50px;
-    border-radius: 15px;
-    background-color: rgb(73,197,182);
-    margin-top: 15px;
-    border: none;
-    opacity: 80%;
-    margin-left: 15px;
+        width: 130px;
+        color: rgb(209, 72, 54);
+        height: 50px;
+        border-radius: 15px;
+        background-color: rgb(73, 197, 182);
+        margin-top: 15px;
+        border: none;
+        opacity: 80%;
+        margin-left: 15px;
 }
+
 .header-left {
-    margin-right: 45%;
+        margin-right: 45%;
 }
+
 .header-right {
-    margin-left: 45%;
-    margin-right: 2%;
+        margin-left: 45%;
+        margin-right: 2%;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
 }
-h1{
-    text-align: center;
-    color : rgb(209,72,54);
-    font-size: 60px;
-    margin-top: 20px;
-    text-shadow: 1px 1px 2px black;
-    
+
+h1 {
+        text-align: center;
+        color: rgb(209, 72, 54);
+        font-size: 60px;
+        margin-top: 20px;
+        text-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+
 }
+
 .burger-icon span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 6px 0;
-    
-  }
-  .search {
-    margin-left: 30%;
-    text-align: center;
-    width: 500px;
-    height: 40px;
-    background-color: rgb(73,197,182);
-    border-radius: 20px;
-    opacity: 80%;
-  }
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 6px 0;
 
-  .loupe { 
-    height: 40px;
-    margin-left: 31% ;
-    opacity: 1;
-    color: black;
-    
-  }
-  .recherche {
-    position: relative;
-    margin-left: 90px;
-  }
-  .recherche img,search{
-    position: absolute;
-  }
-  .recherche img{
-    opacity: 1;
-    color: black;
-  }
-  .h2 {
-    text-align: center;
-    text-decoration-line: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-  }
-
- #conteneur {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
- }
- .saumon{
-  height: 250px;
-  width: 250px;
-  border-radius: 20px;
- }
- .salade{
-  height: 250px;
-  width: 250px;
-  border-radius: 20px;
- }
- .scampis{
-  height: 250px;
-  width: 250px;
-  border-radius: 20px;
- }
- .thèmes{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  text-decoration: underline;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 150px;
-
- }
-
-
- /* Pastilles thèmes */
-
-#pastilles{
-  display: flex;
-  justify-content: space-around;
-  
-}
-.d1{
-  width: 100px;
-  height: 100px;
-  background-color:rgb(209,72,54);
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
 }
 
-.rapide{
-    width: 50px;
-    height: 40px;
-    background-color:rgb(209,72,54) ;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-}
-.d2{
-    width: 100px;
-    height: 100px;
-    background-color:rgb(209,72,54);
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 20px;
+.search {
+        margin-left: 30%;
+        text-align: center;
+        width: 500px;
+        height: 40px;
+        background-color: rgb(73, 197, 182);
+        border-radius: 20px;
+        opacity: 80%;
 }
 
-.entrée{
-    width: 50px;
-    height: 40px;
-    background-color:rgb(209,72,54) ;
-    border-radius: 10px;
-    padding-bottom: 20px;
-}
-.d3{
-    width: 100px;
-    height: 100px;
-    background-color:rgb(209,72,54);
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 20px;
+.loupe {
+        height: 40px;
+        margin-left: 31%;
+        opacity: 1;
+        color: black;
+
 }
 
-.Plats{
-      width: 50px;
-      height: 40px;
-      background-color:rgb(209,72,54) ;
-      border-radius: 10px;
-      padding-bottom: 20px;
-}
-.d4{
-    width: 100px;
-    height: 100px;
-    background-color:rgb(209,72,54);
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 20px;
+.recherche {
+        position: relative;
+        margin-left: 90px;
 }
 
-.Desserts{
-          width: 50px;
-          height: 40px;
-          background-color:rgb(209,72,54) ;
-          border-radius: 10px;
-          padding-bottom: 20px;
+.recherche img,
+search {
+        position: absolute;
 }
-.d5{
+
+.recherche img {
+        opacity: 1;
+        color: black;
+}
+
+.h2 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+}
+
+#conteneur {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+}
+
+.saumon {
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.salade {
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.scampis {
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.thèmes {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 150px;
+
+}
+
+
+/* Pastilles thèmes */
+
+#pastilles {
+        display: flex;
+        justify-content: space-around;
+
+
+}
+
+.d1 {
+
         width: 100px;
         height: 100px;
-        background-color:rgb(209,72,54);
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+
+}
+
+.rapide {
+        width: 50px;
+        height: 40px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.d2 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(209, 72, 54);
         border-radius: 10px;
         text-align: center;
         padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
 }
 
-.Vegan{
+.entrée {
         width: 50px;
         height: 40px;
-        background-color:rgb(209,72,54) ;
+        background-color: rgb(209, 72, 54);
         border-radius: 10px;
         padding-bottom: 20px;
 }
-.ingrédients{
+
+.d3 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.Plats {
+        width: 50px;
+        height: 40px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        padding-bottom: 20px;
+        
+}
+
+.d4 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.Desserts {
+        width: 50px;
+        height: 40px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        padding-bottom: 20px;
+}
+
+.d5 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
+}
+
+.Vegan {
+        width: 50px;
+        height: 40px;
+        background-color: rgb(209, 72, 54);
+        border-radius: 10px;
+        padding-bottom: 20px;
+}
+
+.ingrédients {
         width: 600px;
         height: 150px;
-        background-color: rgb(73,197,182);
+        background-color: rgb(73, 197, 182);
         border-radius: 20px;
         opacity: 80%;
         text-align: center;
@@ -216,135 +252,152 @@ h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
 }
-.texte{
+
+.texte {
         display: flex;
         display: block;
         padding-top: 60px;
- 
- 
+
+
 }
+
 #Ingrédients {
         display: flex;
         justify-content: space-around;
         margin-top: 50px;
- }
+}
 
 
-.choux{
+.choux {
         font-family: Arial, Helvetica, sans-serif;
         width: 100px;
         height: 100px;
         border-radius: 10px;
         text-align: center;
-  
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+
 }
 
 
 
-.poireaux{
+.poireaux {
         font-family: Arial, Helvetica, sans-serif;
         width: 100px;
         height: 100px;
         border-radius: 10px;
         text-align: center;
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
 }
 
- 
- .endives{
+
+.endives {
         font-family: Arial, Helvetica, sans-serif;
         width: 100px;
         height: 100px;
         border-radius: 10px;
         text-align: center;
- }
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+}
 
- 
- .collin{
+
+.collin {
         font-family: Arial, Helvetica, sans-serif;
         width: 100px;
         height: 100px;
         border-radius: 10px;
         text-align: center;
- }
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
+}
 
- 
- .poire{
+
+.poire {
         font-family: Arial, Helvetica, sans-serif;
         width: 100px;
         height: 100px;
         border-radius: 10px;
         text-align: center;
- }
- 
- .T1{
-        width: 100px;
-        height: 10px;
-        border-radius: 10px;
-        text-align: center;
-  
+        box-shadow: 10px 5px 5px rgba(32, 32, 32, 0.459);
 }
-.T2{
-        width: 100px;
-        height: 10px;
-        border-radius: 10px;
-        text-align: center;
-  
-}
-.T3{
-        width: 100px;
-        height: 10px;
-        border-radius: 10px;
-        text-align: center;
-  
-}
-.T4{
-        width: 100px;
-        height: 10px;
-        border-radius: 10px;
-        text-align: center;
-  
-}
-.T5{
+
+.T1 {
         width: 100px;
         height: 10px;
         border-radius: 10px;
         text-align: center;
         
-  
+
 }
-.a1{
+
+.T2 {
+        width: 100px;
+        height: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+}
+
+.T3 {
+        width: 100px;
+        height: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+}
+
+.T4 {
+        width: 100px;
+        height: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+}
+
+.T5 {
+        width: 100px;
+        height: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+
+}
+
+.a1 {
         text-decoration: none;
         color: black;
-       
+
 }
-.a2{
+
+.a2 {
         text-decoration: none;
         color: black;
-       
+
 }
-.a3{
+
+.a3 {
         text-decoration: none;
         color: black;
-       
+
 }
-.a4{
+
+.a4 {
         text-decoration: none;
         color: black;
-       
+
 }
+
 /* .a5{
         text-decoration: none;
         color: black;
        
 } */
-.a6{
+.a6 {
         text-decoration: none;
         color: black;
-       
+
 }
 
-#footer{
-        background-color:rgb(209,72,54);
+#footer {
+        background-color: rgb(209, 72, 54);
         height: 200px;
         margin-top: 100px;
         display: flex;
@@ -354,16 +407,20 @@ h1{
         margin-top: 100px;
 
 }
-.f1{
+
+.f1 {
         margin-top: 80px;
 }
-.f2{
+
+.f2 {
         margin-top: 80px;
 }
-.f3{
+
+.f3 {
         margin-top: 80px;
 }
-.facebook{
+
+.facebook {
         width: 30px;
         height: 30px;
         display: flex;
@@ -371,11 +428,12 @@ h1{
         justify-content: space-around;
         justify-content: center;
         margin-top: 90px;
-        
-        
-        
-    }
-    .instagram{
+
+
+
+}
+
+.instagram {
         width: 30px;
         height: 30px;
         display: flex;
@@ -383,9 +441,10 @@ h1{
         flex-direction: row;
         justify-content: center;
         margin-top: 90px;
-       
-    }
-    .pinterest{
+
+}
+
+.pinterest {
         width: 30px;
         height: 30px;
         display: flex;
@@ -393,33 +452,35 @@ h1{
         justify-content: space-between;
         justify-content: center;
         margin-top: 90px;
-    }
+}
 
 
 /* Responsive */
 
 @media (max-width:550px) {
-        h1{
+        h1 {
                 text-align: center;
-                color : rgb(209,72,54);
+                color: rgb(209, 72, 54);
                 font-size: 30px;
                 margin-top: 20px;
                 text-shadow: black 10%;
-                
-            }
-            .search {
+
+        }
+
+        .search {
                 margin-left: 30%;
                 text-align: center;
                 width: 250px;
                 height: 40px;
-                background-color: rgb(73,197,182);
+                background-color: rgb(73, 197, 182);
                 border-radius: 20px;
                 opacity: 80%;
-              }
-              .ingrédients{
+        }
+
+        .ingrédients {
                 width: 200px;
                 height: 150px;
-                background-color: rgb(73,197,182);
+                background-color: rgb(73, 197, 182);
                 border-radius: 20px;
                 opacity: 80%;
                 text-align: center;
@@ -430,105 +491,113 @@ h1{
                 font-size: 25px;
         }
 
-        .d1{
+        .d1 {
                 width: 100px;
                 height: 100px;
-                background-color:rgb(209,72,54);
+                background-color: rgb(209, 72, 54);
                 border-radius: 10px;
                 text-align: center;
                 margin-bottom: 30px;
                 padding-bottom: 20px;
-              }
-              
-              .rapide{
-                  width: 50px;
-                  height: 40px;
-                  background-color:rgb(209,72,54) ;
-                  border-radius: 5px;
-                  margin-bottom: 30px;
-                  padding-bottom: 20px;
-              }
-              .d2{
-                  width: 100px;
-                  height: 100px;
-                  background-color:rgb(209,72,54);
-                  border-radius: 10px;
-                  text-align: center;
-                  padding-bottom: 20px;
-              }
-              
-              .entrée{
-                  width: 50px;
-                  height: 40px;
-                  background-color:rgb(209,72,54) ;
-                  border-radius: 10px;
-                  padding-bottom: 20px;
-              }
-              .d3{
-                  width: 100px;
-                  height: 100px;
-                  background-color:rgb(209,72,54);
-                  border-radius: 10px;
-                  text-align: center;
-                  padding-bottom: 20px;
-              }
-              
-              .Plats{
-                    width: 50px;
-                    height: 40px;
-                    background-color:rgb(209,72,54) ;
-                    border-radius: 10px;
-                    padding-bottom: 20px;
-              }
-              .d4{
-                  width: 100px;
-                  height: 100px;
-                  background-color:rgb(209,72,54);
-                  border-radius: 10px;
-                  text-align: center;
-                  padding-bottom: 20px;
-              }
-              
-              .Desserts{
-                        width: 50px;
-                        height: 40px;
-                        background-color:rgb(209,72,54) ;
-                        border-radius: 10px;
-                        padding-bottom: 20px;
-              }
-              .d5{
-                      width: 100px;
-                      height: 100px;
-                      background-color:rgb(209,72,54);
-                      border-radius: 10px;
-                      text-align: center;
-                      padding-bottom: 20px;
-              }
-              
-              .Vegan{
-                      width: 50px;
-                      height: 40px;
-                      background-color:rgb(209,72,54) ;
-                      border-radius: 10px;
-                      padding-bottom: 20px;
-              }
-              #footer{
-              padding-right: 1000px;    
-        
         }
-        .saumon{
+
+        .rapide {
+                width: 50px;
+                height: 40px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 5px;
+                margin-bottom: 30px;
+                padding-bottom: 20px;
+        }
+
+        .d2 {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                text-align: center;
+                padding-bottom: 20px;
+        }
+
+        .entrée {
+                width: 50px;
+                height: 40px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                padding-bottom: 20px;
+        }
+
+        .d3 {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                text-align: center;
+                padding-bottom: 20px;
+        }
+
+        .Plats {
+                width: 50px;
+                height: 40px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                padding-bottom: 20px;
+        }
+
+        .d4 {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                text-align: center;
+                padding-bottom: 20px;
+        }
+
+        .Desserts {
+                width: 50px;
+                height: 40px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                padding-bottom: 20px;
+        }
+
+        .d5 {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                text-align: center;
+                padding-bottom: 20px;
+        }
+
+        .Vegan {
+                width: 50px;
+                height: 40px;
+                background-color: rgb(209, 72, 54);
+                border-radius: 10px;
+                padding-bottom: 20px;
+        }
+
+        #footer {
+                padding-right: 1000px;
+
+        }
+
+        .saumon {
                 height: 100px;
                 width: 100px;
                 border-radius: 10px;
-               }
-               .salade{
+        }
+
+        .salade {
                 height: 100px;
                 width: 100px;
                 border-radius: 10px;
-               }
-               .scampis{
+        }
+
+        .scampis {
                 height: 100px;
                 width: 100px;
                 border-radius: 10px;
-               }
-    }
+        }
+}
