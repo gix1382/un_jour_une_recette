@@ -3,16 +3,19 @@ body {
         padding: 0;
         box-sizing: border-box;
         font-family: 'Itim';
+        background-color:bisque 
 }
 
 #header {
         background-image: url(./images/background\ 2.jpg);
         display: flex;
         width: 100%;
-        height: 100px;
+        height: 120px;
         background-position-y: 20%;
         background-position: right 45%;
         background-size: cover;
+        
+       
         
 }
 
@@ -50,7 +53,7 @@ h1 {
 .burger-icon span {
         display: block;
         width: 25px;
-        height: 3px;
+        height: 2px;
         background-color: black;
         margin: 6px 0;
 
@@ -130,6 +133,7 @@ search {
         font-size: 25px;
         font-weight: bold;
         margin-top: 150px;
+        
 
 }
 
@@ -246,11 +250,12 @@ search {
         border-radius: 20px;
         opacity: 80%;
         text-align: center;
-        margin-left: 500px;
+        margin-left: 30%;
         margin-top: 100px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
+        box-shadow: 7px 5px 5px rgba(32, 32, 32, 0.459);
 }
 
 .texte {
@@ -428,6 +433,7 @@ search {
         justify-content: space-around;
         justify-content: center;
         margin-top: 90px;
+        box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.459);
 
 
 
@@ -441,6 +447,7 @@ search {
         flex-direction: row;
         justify-content: center;
         margin-top: 90px;
+        box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.459);
 
 }
 
@@ -452,6 +459,7 @@ search {
         justify-content: space-between;
         justify-content: center;
         margin-top: 90px;
+        box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.459);
 }
 
 
