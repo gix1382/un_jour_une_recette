@@ -58,13 +58,7 @@ h1{
     opacity: 80%;
   }
 
-  .loupe { 
-    height: 40px;
-    margin-left: 31% ;
-    opacity: 1;
-    color: black;
-    
-  }
+
   .recherche {
     position: relative;
   }
@@ -75,10 +69,15 @@ h1{
     opacity: 1;
     color: black;
   }
-  #conteneur {
+  #conteneur1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+   }
+   #conteneur2 {
+    display: flex;
+    justify-content: space-around;
+    
    }
    .velouté{
     height: 350px;

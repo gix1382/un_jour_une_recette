@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Desserts.style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
     <header>
         <div id="header">
             <button class="header  header-left">
-                <a href="#" id="openBtn">
+                <!-- <a href="#" id="openBtn"> -->
                     <span class="burger-icon">
                         <span></span>
                         <span></span>
@@ -22,21 +22,27 @@
                     </span>
                 </a>
             </button>
+            <!-- <a class="a5" href="./Se_connecter.html"> -->
             <button class="header header-right">Connexion</button>
+        <!-- </a> -->
 
 
         </div>
     </header>
 
-    <h1>Les desserts </h1>
-    <div class="recherche">
-        <img class="loupe" src="./images/loupe.png">
-    <button class="search">Je cherche une recette, un ingrédient...</button>
+    <h1>Les desserts </h1><div class="search-bar">
+        <input type="text" placeholder="Je recherche une recette, un ingrédient...">
+        <button type="submit"><i class="fa fa-search"></i></button>
 </div>
-<div id="conteneur">
+<div id="conteneur1">
     
     <div><p class="titre1">Pana cotta</p><img class="pana" src="./images/pana-cotta-dessert.png" alt="pana"></div>
     <div><p class="titre2">Canelés Bordelais</p><img class="canelés" src="./images/canele-dessert-francais-local-fond-bois-fonce_267929-637.jpg" alt="canelés"></div>
+   
+</div>
+<div id="conteneur2">
+    
+
     <div><p class="titre3">Charlotte aux fraises</p><img class="charlotte" src="./images/charlotte-aux-fraises.png" alt="charlotte"></div>
     <div><p class="titre4">Carrot cake</p><img class="carrot" src="./images/carrot-cake-dessert.png" alt="carrot"></div>
 </div>
@@ -45,11 +51,11 @@
 <!--Mise en place footer  -->
 <footer>
     <div id="footer">
-     <div id="links">
+     
            <div class="facebook"> <img src="./images/logo-de-lapplication-facebook.png" alt="Facebook"></div>
         <div class="instagram"> <img src="./images/instagram.png" alt="Instagram"></div>
         <div class="pinterest"> <img src="./images/pinterest.png" alt="Pinterest"></div>
-    </div>
+    
         <div class="f1"><p>Politique de confidentialité</p></div>
         <div class="f2"><p>Conditions générales d'utilisation</p></div>
         <div class="f3"><p>Tous droits réservés Un jour une recette 2023</p></div>
